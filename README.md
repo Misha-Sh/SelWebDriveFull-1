@@ -1,2 +1,2 @@
 # SelWebDriveFull-1
-Repository for Selenium WebDrive Training Full
+Repository for Selenium WebDrive Training
