@@ -15,7 +15,7 @@ public class OpenClosPage {
     @Before
     public void start() {
         driver = new ChromeDriver();
-        
+
 
     }
 
