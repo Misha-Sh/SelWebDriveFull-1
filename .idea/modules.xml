@@ -9,6 +9,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-project-java.iml" filepath="$PROJECT_DIR$/.idea/modules/first-project-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-project-java_main.iml" filepath="$PROJECT_DIR$/.idea/modules/first-project-java_main.iml" group="first-project-java" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/first-project-java_test.iml" filepath="$PROJECT_DIR$/.idea/modules/first-project-java_test.iml" group="first-project-java" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-works.iml" filepath="$PROJECT_DIR$/.idea/modules/home-works.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-works_main.iml" filepath="$PROJECT_DIR$/.idea/modules/home-works_main.iml" group="home-works" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-works_test.iml" filepath="$PROJECT_DIR$/.idea/modules/home-works_test.iml" group="home-works" />
     </modules>
   </component>
 </project>
