@@ -51,51 +51,32 @@ public class CheckStickers {
 @Test
 public void test() {
     driver.get("http://localhost/litecart/");
-    WebElement e1 = driver.findElement(By.cssSelector("#box-most-popular"));
-    List<WebElement> e11 = e1.findElements(By.cssSelector("li.product.column.shadow.hover-light"));
-    System.out.println("--------------\nAmount of pictures in section box-most-popular = " + e11.size());
-    int count = 0;
-    for (WebElement e111 : e11) {
-        if (e111.findElements(By.cssSelector("div.sticker.new")).size() == 1)
-            count++;
-        if (e111.findElements(By.cssSelector("div.sticker.sale")).size() == 1)
-            count++;
-        if (count != 1)
-            System.out.println("Sticker Problem in box-most-popular");
-        count = 0;
-    }
-
-
-    e1 = driver.findElement(By.cssSelector("#box-campaigns"));
-    e11 = e1.findElements(By.cssSelector("li.product.column.shadow.hover-light"));
-    System.out.println("----------------\nAmount of pictures in section box-campaigns = " + e11.size());
-    for (WebElement e111 : e11) {
-        if (e111.findElements(By.cssSelector("div.sticker.new")).size() == 1)
-            count++;
-        if (e111.findElements(By.cssSelector("div.sticker.sale")).size() == 1)
-            count++;
-        if (count != 1)
-            System.out.println("Sticker Problem in box-campaigns");
-        count = 0;
-    }
-
-    e1 = driver.findElement(By.cssSelector("#box-latest-products"));
-    e11 = e1.findElements(By.cssSelector("li.product.column.shadow.hover-light"));
-    System.out.println("----------------\nAmount of pictures in section #box-latest-products = " + e11.size());
-    for (WebElement e111 : e11) {
-        if (e111.findElements(By.cssSelector("div.sticker.new")).size() == 1)
-            count++;
-        if (e111.findElements(By.cssSelector("div.sticker.sale")).size() == 1)
-            count++;
-        if (count != 1)
-            System.out.println("Sticker Problem in #box-latest-products");
-        count = 0;
-    }
+checkStickers("#box-most-popular",driver);
+    checkStickers("#box-campaigns",driver);
+    checkStickers("#box-latest-products",driver);
+//
 }
     @After
     public void stop(){
         driver.quit();
         driver = null;
+    }
+
+    public static void checkStickers (String box,WebDriver driver)
+    {
+        WebElement e1 = driver.findElement(By.cssSelector(box));
+        List<WebElement> e11 = e1.findElements(By.cssSelector("li.product.column.shadow.hover-light"));
+        System.out.println("--------------\nAmount of pictures in  " + box + " " + e11.size());
+        int count = 0;
+        for (WebElement e111 : e11) {
+            if (e111.findElements(By.cssSelector("div.sticker.new")).size() == 1)
+                count++;
+            if (e111.findElements(By.cssSelector("div.sticker.sale")).size() == 1)
+                count++;
+            if (count != 1)
+                System.out.println("Sticker Problem in " + box);
+            count = 0;
+        }
     }
 
 }
