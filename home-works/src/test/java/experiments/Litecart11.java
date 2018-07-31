@@ -37,12 +37,6 @@ public class Litecart11 {
 
         driver.findElement(By.xpath("//li[@id='app-']/a/span[2]")).click();
 
-//        driver.findElement(By.xpath("//<li id='app-'> " +
-//                "<a href='http://localhost/litecart/admin/?app=appearance&amp;doc=template'>" +
-//                "<span class='fa-stack fa-lg icon-wrapper'>" +
-//                "<i class='fa fa-circle fa-stack-2x icon-background' style='color: #ff387c;'></i>" +
-//                "<i class='fa fa-adjust fa-stack-1x icon' style='color: #fff;'></i>" +
-//                "</span> <span class='name'>Appearence</span></a> </li>\n")).click();
 
 
         driver.findElement(By.xpath("//li[@id='doc-template']/a/span")).click();

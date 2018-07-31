@@ -65,17 +65,15 @@ checkStickers("#box-most-popular",driver);
     public static void checkStickers (String box,WebDriver driver)
     {
         WebElement e1 = driver.findElement(By.cssSelector(box));
-        List<WebElement> e11 = e1.findElements(By.cssSelector("li.product.column.shadow.hover-light"));
+        //List<WebElement> e11 = e1.findElements(By.cssSelector("li.product.column.shadow.hover-light"));
+        List<WebElement> e11 = e1.findElements(By.className("product"));
+
         System.out.println("--------------\nAmount of pictures in  " + box + " " + e11.size());
-        int count = 0;
+        int AmountOfStickers = 0;
         for (WebElement e111 : e11) {
-            if (e111.findElements(By.cssSelector("div.sticker.new")).size() == 1)
-                count++;
-            if (e111.findElements(By.cssSelector("div.sticker.sale")).size() == 1)
-                count++;
-            if (count != 1)
+          AmountOfStickers = e111.findElements(By.className("sticker")).size();
+               if (AmountOfStickers!= 1)
                 System.out.println("Sticker Problem in " + box);
-            count = 0;
         }
     }
 

@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8de467-2c71-42a3-aa84-d5ef5acf9c81" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/experiments/Litecart11.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/experiments/Litecart11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw8_CheckStickersOnImage/CheckStickers.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw8_CheckStickersOnImage/CheckStickers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw8_CheckStickersOnImage/CheckStickers.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw8_CheckStickersOnImage/CheckStickers.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/first-project-java/.gradle/" />
@@ -40,7 +49,12 @@
       <state>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="home-works" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -49,20 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LiteCartAdmin.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw4/LiteCartAdmin.java">
+      <file leaf-file-name="ClicksLeftPanel_FindH1_2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="31" selection-start-line="31" selection-end-line="33" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Litecart11.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="69" />
+            <state relative-caret-position="545">
+              <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,11 +75,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LiteCartAdmin5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw5/LiteCartAdmin5.java">
+      <file leaf-file-name="Litecart11.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+            <state relative-caret-position="22">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -85,8 +90,8 @@
       <file leaf-file-name="ClicksLeftPanel_CheckH1.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_CheckH1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="144" />
+            <state relative-caret-position="241">
+              <caret line="133" column="89" selection-start-line="128" selection-start-column="16" selection-end-line="133" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,32 +99,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CheckStickers.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CheckStickers.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw8_CheckStickersOnImage/CheckStickers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="546">
+              <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Assert.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
-              <caret line="85" selection-start-line="85" selection-end-line="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiteCartAdmin6.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw6/LiteCartAdmin6.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="25" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -973,22 +960,23 @@
         <option value="$PROJECT_DIR$/home-works/src/test/java/simple.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/OpenClosPage.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/LiteCartAdmin.java" />
-        <option value="$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw4/LiteCartAdmin.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw5/LiteCartAdmin.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw6/LiteCartAdmin5.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw6/LiteCartAdmin6.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw5/LiteCartAdmin5.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_CheckH1.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw8_CheckStickersOnImage/CheckStickers.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-101" />
-    <option name="y" value="33" />
-    <option name="width" value="1326" />
-    <option name="height" value="601" />
+    <option name="x" value="-59" />
+    <option name="y" value="23" />
+    <option name="width" value="1118" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -996,6 +984,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1054,15 +1043,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hw7_ClicksLeftPanel_Find_H1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hw8_CheckStickersOnImage" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1091,7 +1088,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.CheckStickers">
+  <component name="RunManager" selected="JUnit.ClicksLeftPanel_FindH1_2.testIt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1141,7 +1138,7 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="ClicksLeftPanel_CheckH1.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClicksLeftPanel_FindH1_2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="home-works_test" />
       <extension name="coverage">
         <pattern>
@@ -1152,24 +1149,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="hw7_ClicksLeftPanel_Find_H1" />
-      <option name="MAIN_CLASS_NAME" value="hw7_ClicksLeftPanel_Find_H1.ClicksLeftPanel_CheckH1" />
-      <option name="METHOD_NAME" value="testIt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LiteCartAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="home-works_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw4" />
-      <option name="MAIN_CLASS_NAME" value="hw4.LiteCartAdmin" />
+      <option name="MAIN_CLASS_NAME" value="hw7_ClicksLeftPanel_Find_H1.ClicksLeftPanel_FindH1_2" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1181,20 +1161,20 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="LiteCartAdmin5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClicksLeftPanel_FindH1_2.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="home-works_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw5.*" />
+          <option name="PATTERN" value="hw7_ClicksLeftPanel_Find_H1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw5" />
-      <option name="MAIN_CLASS_NAME" value="hw5.LiteCartAdmin5" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="hw7_ClicksLeftPanel_Find_H1" />
+      <option name="MAIN_CLASS_NAME" value="hw7_ClicksLeftPanel_Find_H1.ClicksLeftPanel_FindH1_2" />
+      <option name="METHOD_NAME" value="testIt" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1212,6 +1192,29 @@
       <option name="MAIN_CLASS_NAME" value="LiteCartAdmin" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Litecart11.testLitecart11" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="home-works_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="experiments.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="experiments" />
+      <option name="MAIN_CLASS_NAME" value="experiments.Litecart11" />
+      <option name="METHOD_NAME" value="testLitecart11" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1260,19 +1263,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.LiteCartAdmin" />
-      <item itemvalue="JUnit.LiteCartAdmin5" />
-      <item itemvalue="JUnit.ClicksLeftPanel_CheckH1.testIt" />
       <item itemvalue="JUnit.CheckStickers.test" />
       <item itemvalue="JUnit.CheckStickers" />
+      <item itemvalue="JUnit.ClicksLeftPanel_FindH1_2" />
+      <item itemvalue="JUnit.ClicksLeftPanel_FindH1_2.testIt" />
+      <item itemvalue="JUnit.Litecart11.testLitecart11" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CheckStickers" />
+        <item itemvalue="JUnit.ClicksLeftPanel_FindH1_2.testIt" />
         <item itemvalue="JUnit.CheckStickers.test" />
-        <item itemvalue="JUnit.ClicksLeftPanel_CheckH1.testIt" />
-        <item itemvalue="JUnit.LiteCartAdmin5" />
-        <item itemvalue="JUnit.LiteCartAdmin" />
+        <item itemvalue="JUnit.Litecart11.testLitecart11" />
+        <item itemvalue="JUnit.ClicksLeftPanel_FindH1_2" />
+        <item itemvalue="JUnit.CheckStickers" />
       </list>
     </recent_temporary>
   </component>
@@ -1290,35 +1293,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckStickers_test - 2018.07.29 at 00h 37m 43s.xml">
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 03h 57m 06s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 04h 11m 41s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 04h 12m 49s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 04h 19m 16s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 04h 20m 40s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 04h 25m 46s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CheckStickers_test - 2018.07.31 at 04h 33m 55s.xml">
       <configuration name="CheckStickers.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 00h 50m 04s.xml">
+    <history-entry file="CheckStickers_test - 2018.07.31 at 04h 40m 35s.xml">
       <configuration name="CheckStickers.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 00h 54m 53s.xml">
+    <history-entry file="CheckStickers_test - 2018.07.31 at 12h 28m 51s.xml">
       <configuration name="CheckStickers.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 01h 20m 09s.xml">
-      <configuration name="CheckStickers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 01h 29m 29s.xml">
-      <configuration name="CheckStickers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 01h 33m 35s.xml">
-      <configuration name="CheckStickers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 01h 37m 30s.xml">
-      <configuration name="CheckStickers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 01h 45m 06s.xml">
-      <configuration name="CheckStickers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers_test - 2018.07.29 at 01h 48m 20s.xml">
-      <configuration name="CheckStickers.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckStickers - 2018.07.29 at 13h 09m 57s.xml">
-      <configuration name="CheckStickers" configurationId="JUnit" />
+    <history-entry file="ClicksLeftPanel_FindH1_2_testIt - 2018.07.31 at 12h 30m 58s.xml">
+      <configuration name="ClicksLeftPanel_FindH1_2.testIt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1331,30 +1334,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-101" y="33" width="1326" height="601" extended-state="0" />
+    <frame x="-37" y="47" width="1118" height="704" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32224533" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32020548" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50311524" side_tool="true" weight="0.3846154" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49688473" visible="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49688473" visible="true" weight="0.16438356" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22663552" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16263941" />
       <window_info anchor="bottom" id="Build" order="7" />
-      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.13785046" />
+      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.22118959" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.18063314" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.18063314" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1372,6 +1375,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw8_CheckStickersOnImage/CheckStickers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="80" selection-start-line="80" selection-end-line="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw4/LiteCartAdmin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1665,10 +1678,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/reflect/DelegatingMethodAccessorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/experiments/Litecart11.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="69" />
+        <state relative-caret-position="22">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1677,25 +1704,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_CheckH1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1845">
-          <caret line="139" column="3" selection-start-line="139" selection-start-column="3" selection-end-line="144" />
+        <state relative-caret-position="241">
+          <caret line="133" column="89" selection-start-line="128" selection-start-column="16" selection-end-line="133" selection-end-column="89" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/Assert.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-9.0.1.jdk/Contents/Home/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        <state relative-caret-position="112">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw8_CheckStickersOnImage/CheckStickers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="546">
+          <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="71" column="42" selection-start-line="71" selection-start-column="42" selection-end-line="71" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
