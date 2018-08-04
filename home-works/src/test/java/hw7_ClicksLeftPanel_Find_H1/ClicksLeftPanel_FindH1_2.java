@@ -57,25 +57,34 @@ public class ClicksLeftPanel_FindH1_2 {
         driver.findElement(By.name("password")).sendKeys("msh");
         driver.findElement(By.name("login")).click();
 
-
+        WebElement rrr = driver.findElement(By.id("app-"));
+        String eee = rrr.getAttribute("nextElementSibling");
+        System.out.println(eee);
 driver.findElement(By.id("app-")).click();
-int size = 10, sizeDoc = 10 ;
-        for(int i = 0; i < size; i++) {
+
+
+int size = 1, sizeDoc = 1;
+        for(int i = 0; i < size; i++)
+
+        {
             List<WebElement> list = driver.findElements(By.cssSelector("ul#box-apps-menu li#app-"));
             size = list.size();
             if(size == 0)
                 break;
             list.get(i).click();
 
-            for (int j = 0; j < sizeDoc; j ++) {
+            for (int j = 0; j < sizeDoc; j ++)
+            {
                 List<WebElement> listDocs = driver.findElements(By.cssSelector("li#app-[class ='selected'] span[class = 'name']"));
                 sizeDoc = listDocs.size();
+                System.out.println("sizeDoc = " + sizeDoc + "j" + j);
                 listDocs.get(j).click();
                 List<WebElement> hs = driver.findElements(By.cssSelector("h1"));
                 for (WebElement wb : hs) {
                     System.out.println("Name inH1 = " + wb.getText());
                 }
                 System.out.println("Numder of H1 = " + hs.size() + "\n----------------");
+
             }
 
         }
