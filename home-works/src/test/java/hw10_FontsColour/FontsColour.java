@@ -28,9 +28,9 @@ public class FontsColour {
     {
         ///////////////////////// FireFox ////////////////////////////
         ///////// for FireFoxNightly//////////////////////////
-        FirefoxOptions options = new FirefoxOptions();
-        options.setBinary(new FirefoxBinary(new File("/Applications/FireFoxNightly/Firefox Nightly.app/Contents/MacOS/firefox-bin")));
-        driver = new FirefoxDriver(options);
+//        FirefoxOptions options = new FirefoxOptions();
+//        options.setBinary(new FirefoxBinary(new File("/Applications/FireFoxNightly/Firefox Nightly.app/Contents/MacOS/firefox-bin")));
+//        driver = new FirefoxDriver(options);
 //        ///////// for FireFox45ESR ///////////////////////////
 //        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
 //        options.setBinary(new FirefoxBinary(new File("/Applications/FireFox45ESR/Firefox.app/Contents/MacOS/firefox-bin")));
@@ -43,7 +43,7 @@ public class FontsColour {
         ////////////// For Chrome ///////////////////
         //driver = new ChromeDriver();
         //////////////////////For Safari ////////////////////
-        //driver = new SafariDriver();
+        driver = new SafariDriver();
 /////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
 
@@ -73,15 +73,15 @@ public class FontsColour {
                                                     //////////////////////Campaign price
         WebElement priceCampaignMP = driver.findElement(By.cssSelector("#box-campaigns  strong[class = 'campaign-price']"));
         String priceCampaignMpValue = priceCampaignMP.getText();
-        System.out.println("Ok! price Campaign on Main Page is Strong");///price Campaign, isStrong
+        System.out.println("OK! price Campaign on Main Page is Strong");///price Campaign, isStrong
 
-        String priceCampaignfontSize = priceCampaignMP.getCssValue("font-size");
+        String priceCampaignFontSize = priceCampaignMP.getCssValue("font-size");
         String priceCampaignMpColor = priceCampaignMP.getCssValue("color");
         colorRedGreyOrWhat(priceCampaignMpColor,"red");
 
                                                                         /// Checking fontSize Reg < fontSize Campaign
-if(sizeFontDouble(priceCampaignfontSize) > sizeFontDouble(priceRegfontSize))
-    System.out.println("Ok! Reg Font Size < Campaign Font Size");
+if(sizeFontDouble(priceCampaignFontSize) > sizeFontDouble(priceRegfontSize))
+    System.out.println("OK! Reg Font Size < Campaign Font Size");
 else System.out.println("Wrong! Reg Font Size !< Campaign Font Size");
 
                                                      ///////////on Details page:
@@ -101,7 +101,7 @@ else System.out.println("Wrong! Reg Font Size !< Campaign Font Size");
         //////////////////////Campaign price
         WebElement priceCampaignDP = driver.findElement(By.cssSelector("div [class = 'price-wrapper']  strong[class = 'campaign-price']"));
         String priceCampaignDpValue = priceCampaignDP.getText();
-        System.out.println("Ok! price Campaign on Details Page is Strong");///price Campaign, isStrong
+        System.out.println("OK! price Campaign on Details Page is Strong");///price Campaign, isStrong
 
         String priceDpCampaignfontSize = priceCampaignDP.getCssValue("font-size");
         String priceCampaignDpColor = priceCampaignDP.getCssValue("color");
@@ -109,13 +109,13 @@ else System.out.println("Wrong! Reg Font Size !< Campaign Font Size");
 
         /// Checking fontSize Reg < fontSize Campaign
         if(sizeFontDouble(priceDpCampaignfontSize) > sizeFontDouble(priceDpRegFontSize))
-            System.out.println("Ok! Reg Font Size < Campaign Font Size");
+            System.out.println("OK! Reg Font Size < Campaign Font Size");
         else System.out.println("Wrong! Reg Font Size !< Campaign Font Size");
 
 // price Value MP = price Value DP ?
-        System.out.println("************* Name&Price MP = Name&Price  DP ? *************");
+        System.out.println("************* Name&Price MP = Name&Price DP? *************");
         if(priceRegDpValue.equals(priceRegMpValue) && priceCampaignDpValue.equals(priceCampaignMpValue))
-            System.out.println("OK !Prices on MP and DP are Equals!");
+            System.out.println("OK! Prices on MP and DP are Equals!");
         else
             System.out.println("Wrong !Prices on MP and DP NOT Equals!");
 
@@ -146,11 +146,11 @@ public void colorRedGreyOrWhat (String color, String flagColor)
         String [] arRGB = color.split(", ");
 
         if (arRGB[0].equals(arRGB[1]) && arRGB[2].equals(arRGB[1]) && flagColor.equals("grey"))
-            System.out.println("Ok! priceReg Color = GREY :" + arRGB[0] + " " + arRGB[1]+ " " + arRGB[2]);
+            System.out.println("OK! priceReg Color = GREY: " + arRGB[0] + " " + arRGB[1]+ " " + arRGB[2]);
 else if(!arRGB[0].equals("0") && arRGB[1].equals("0") && arRGB[2].equals("0") && flagColor.equals("red"))
-       System.out.println("Ok! priceCampaign Color  = RED " +  arRGB[0] + " " + arRGB[1]+ " " + arRGB[2]);
+       System.out.println("OK! priceCampaign Color = RED: " +  arRGB[0] + " " + arRGB[1]+ " " + arRGB[2]);
         else
-            System.out.println("Wrong! price Color  not Grey and not Red : " + " R" + arRGB[0]+ " G" +arRGB[1]+ " B" + arRGB[2]);
+            System.out.println("Wrong! price Color not Grey and not Red: " + " R" + arRGB[0]+ " G" +arRGB[1]+ " B" + arRGB[2]);
     }
 
     public double sizeFontDouble (String str)

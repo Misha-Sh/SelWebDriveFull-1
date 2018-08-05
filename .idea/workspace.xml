@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8de467-2c71-42a3-aa84-d5ef5acf9c81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw10_FontsColour/FontsColour.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw10_FontsColour/FontsColour.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/first-project-java/.gradle/" />
@@ -106,8 +101,8 @@
       <file leaf-file-name="FontsColour.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+            <state relative-caret-position="62">
+              <caret line="115" column="71" selection-start-line="115" selection-start-column="71" selection-end-line="115" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,6 +178,7 @@
       <find>#doc-csv</find>
       <find>Alabama</find>
       <find>Alberta</find>
+      <find>Ok</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -1082,42 +1078,6 @@
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw10_FontsColour" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1362,12 +1322,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FontsColour - 2018.08.04 at 23h 48m 52s.xml">
-      <configuration name="FontsColour" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FontsColour - 2018.08.04 at 23h 51m 01s.xml">
-      <configuration name="FontsColour" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="FontsColour - 2018.08.05 at 00h 00m 36s.xml">
       <configuration name="FontsColour" configurationId="JUnit" />
     </history-entry>
@@ -1390,6 +1344,12 @@
       <configuration name="FontsColour" configurationId="JUnit" />
     </history-entry>
     <history-entry file="FontsColour - 2018.08.05 at 00h 34m 42s.xml">
+      <configuration name="FontsColour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FontsColour - 2018.08.05 at 03h 00m 27s.xml">
+      <configuration name="FontsColour" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FontsColour - 2018.08.05 at 03h 08m 01s.xml">
       <configuration name="FontsColour" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1418,9 +1378,9 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19759451" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29209623" />
       <window_info anchor="bottom" id="Build" order="7" />
-      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.3041237" />
+      <window_info active="true" anchor="right" id="Gradle" order="3" visible="true" weight="0.10738832" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1829,8 +1789,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="34" column="60" selection-start-line="34" selection-start-column="60" selection-end-line="34" selection-end-column="60" />
+        <state relative-caret-position="62">
+          <caret line="115" column="71" selection-start-line="115" selection-start-column="71" selection-end-line="115" selection-end-column="71" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
