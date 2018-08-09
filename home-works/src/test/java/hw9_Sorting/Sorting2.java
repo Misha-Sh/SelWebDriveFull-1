@@ -72,9 +72,12 @@ System.out.println("Size arrUrl = " + arrUrl.length);
         for (int i = 1; i < arrUrl.length; i++) {
             driver.get(arrUrl[i]);
 
-            List<WebElement> listZones = driver.findElements(By.cssSelector("select[name *= 'zone_code']"));
+           List<WebElement> listZones = driver.findElements(By.cssSelector("table#table-zones tbody tr td:nth-child(3) select option[selected = 'selected']"));
+
             for (WebElement zona : listZones) {
-                fact = fact + ";;" + zona.getText();
+                fact = fact + ";;" + zona.getAttribute("innerText");
+               //fact = fact + ";;" + zona.getText();
+
 
             }
 
