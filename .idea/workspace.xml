@@ -9,9 +9,11 @@
       <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw10_FontsColour/FontsColour.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw10_FontsColour/FontsColour.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw9_Sorting/Sorting2.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw9_Sorting/Sorting2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting2.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw11_FillForm/Registration.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw11_FillForm/Registration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw12_NewGood/NewGood.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw12_NewGood/NewGood.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/veloSea.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/resources/veloSea.jpg" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/first-project-java/.gradle/" />
@@ -34,6 +36,12 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/SelWebDriveFull_1$Sorting_testIt.ic" NAME="Sorting.testIt Coverage Results" MODIFIED="1533165433574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>hw9_Sorting.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SelWebDriveFull_1$Sorting2_testIt.ic" NAME="Sorting2.testIt Coverage Results" MODIFIED="1533838824978" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hw9_Sorting.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/SelWebDriveFull_1$NewGood_testIt.ic" NAME="NewGood.testIt Coverage Results" MODIFIED="1533839004222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>hw12_NewGood.*</FILTER>
     </SUITE>
   </component>
   <component name="ExternalProjectsData">
@@ -82,7 +90,7 @@
       <file leaf-file-name="FontsColour.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
+            <state relative-caret-position="570">
               <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -94,7 +102,7 @@
       <file leaf-file-name="Sorting.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
+            <state relative-caret-position="585">
               <caret line="56" column="53" selection-start-line="52" selection-start-column="8" selection-end-line="56" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -106,7 +114,7 @@
       <file leaf-file-name="Sorting2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="31">
+            <state relative-caret-position="690">
               <caret line="63" column="111" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="111" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -115,11 +123,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="64" selection-start-line="62" selection-start-column="7" selection-end-line="64" />
+            <state relative-caret-position="-262">
+              <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,11 +135,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewGood.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NewGood.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="74" selection-start-line="74" selection-end-line="75" />
+            <state relative-caret-position="1070">
+              <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1006,16 +1014,16 @@
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting2.java" />
-        <option value="$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-86" />
-    <option name="y" value="98" />
-    <option name="width" value="1314" />
-    <option name="height" value="544" />
+    <option name="x" value="6" />
+    <option name="y" value="23" />
+    <option name="width" value="1274" />
+    <option name="height" value="656" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1023,8 +1031,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1050,19 +1058,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1073,18 +1073,19 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Background" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood" />
-      <recent name="$PROJECT_DIR$/imgs" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="hw6" />
       <recent name="hw5" />
       <recent name="" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/home-works/src/test/resources" />
       <recent name="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood" />
+      <recent name="$PROJECT_DIR$/imgs" />
+      <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1099,32 +1100,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.NewGood.testIt">
+  <component name="RunManager" selected="JUnit.Registration.test">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="FontsColour" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="home-works_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw10_FontsColour.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw10_FontsColour" />
-      <option name="MAIN_CLASS_NAME" value="hw10_FontsColour.FontsColour" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration name="NewGood.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="home-works_test" />
@@ -1280,7 +1258,7 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.FontsColour" />
+      <item itemvalue="JUnit.Sorting2.testIt" />
       <item itemvalue="JUnit.Registration.test" />
       <item itemvalue="JUnit.Sorting.testIt" />
       <item itemvalue="JUnit.Sorting2" />
@@ -1288,11 +1266,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.NewGood.testIt" />
         <item itemvalue="JUnit.Registration.test" />
+        <item itemvalue="JUnit.NewGood.testIt" />
+        <item itemvalue="JUnit.Sorting2.testIt" />
         <item itemvalue="JUnit.Sorting2" />
         <item itemvalue="JUnit.Sorting.testIt" />
-        <item itemvalue="JUnit.FontsColour" />
       </list>
     </recent_temporary>
   </component>
@@ -1310,35 +1288,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="NewGood_testIt - 2018.08.08 at 22h 41m 55s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.08 at 22h 44m 53s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.08 at 22h 54m 56s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.08 at 22h 59m 53s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.09 at 00h 30m 57s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.09 at 02h 29m 55s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.09 at 02h 34m 37s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.09 at 02h 44m 45s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="NewGood_testIt - 2018.08.09 at 02h 52m 37s.xml">
-      <configuration name="NewGood.testIt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="NewGood_testIt - 2018.08.09 at 02h 54m 04s.xml">
       <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Sorting2_testIt - 2018.08.09 at 21h 21m 21s.xml">
+      <configuration name="Sorting2.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewGood_testIt - 2018.08.09 at 21h 22m 04s.xml">
+      <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewGood_testIt - 2018.08.09 at 21h 24m 07s.xml">
+      <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewGood_testIt - 2018.08.09 at 21h 25m 33s.xml">
+      <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewGood_testIt - 2018.08.09 at 21h 40m 16s.xml">
+      <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewGood_testIt - 2018.08.09 at 22h 54m 44s.xml">
+      <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NewGood_testIt - 2018.08.09 at 23h 45m 30s.xml">
+      <configuration name="NewGood.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Registration_test - 2018.08.09 at 23h 47m 54s.xml">
+      <configuration name="Registration.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Registration_test - 2018.08.09 at 23h 51m 00s.xml">
+      <configuration name="Registration.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1351,7 +1329,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-86" y="98" width="1314" height="544" extended-state="0" />
+    <frame x="6" y="23" width="1274" height="656" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
@@ -1361,21 +1339,21 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5039308" side_tool="true" weight="0.46698114" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.46698114" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50442475" side_tool="true" weight="0.3294025" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.37814465" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19561689" />
       <window_info anchor="bottom" id="Build" order="7" />
-      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.27672955" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.32873377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.41267124" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32992566" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.41267124" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -1385,21 +1363,20 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.025092937" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49688473" visible="true" weight="0.26198632" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32020548" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32713756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49688473" visible="true" weight="0.26198632" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="5" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39344263" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.739726" />
@@ -1409,8 +1386,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="10" />
+      <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32020548" />
       <window_info anchor="right" id="Maven Projects" order="8" />
       <window_info id="Favorites" order="6" side_tool="true" />
     </layout-to-restore>
@@ -1420,7 +1398,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -1435,9 +1413,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="55" column="89" selection-start-line="55" selection-start-column="89" selection-end-line="55" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1664,9 +1639,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="38" selection-start-line="38" selection-end-line="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1681,9 +1653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="900">
           <caret line="77" column="5" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1691,9 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1755">
           <caret line="133" column="89" selection-start-line="128" selection-start-column="16" selection-end-line="133" selection-end-column="89" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1708,9 +1674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-197">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1725,9 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="894">
           <caret line="98" selection-start-line="98" selection-end-line="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1740,7 +1700,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw10_FontsColour/FontsColour.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="570">
           <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1750,7 +1710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="31">
+        <state relative-caret-position="690">
           <caret line="63" column="111" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="111" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1760,18 +1720,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw9_Sorting/Sorting.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
+        <state relative-caret-position="585">
           <caret line="56" column="53" selection-start-line="52" selection-start-column="8" selection-end-line="56" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="64" selection-start-line="62" selection-start-column="7" selection-end-line="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1780,8 +1730,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="74" selection-start-line="74" selection-end-line="75" />
+        <state relative-caret-position="1070">
+          <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-262">
+          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1840,7 +1800,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>SelWebDriveFull-1</last-edited>
+          <last-edited>home-works_test|home-works</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
