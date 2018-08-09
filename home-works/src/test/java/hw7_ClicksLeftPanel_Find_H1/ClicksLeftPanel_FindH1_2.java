@@ -57,37 +57,39 @@ public class ClicksLeftPanel_FindH1_2 {
         driver.findElement(By.name("password")).sendKeys("msh");
         driver.findElement(By.name("login")).click();
 
-        WebElement rrr = driver.findElement(By.id("app-"));
-        String eee = rrr.getAttribute("nextElementSibling");
-        System.out.println(eee);
 driver.findElement(By.id("app-")).click();
 
 
-int size = 1, sizeDoc = 1;
-        for(int i = 0; i < size; i++)
-
+int size = 0, sizeDoc = 0, i = 0, j = 0;
+String nameItem ="";
+        do
         {
             List<WebElement> list = driver.findElements(By.cssSelector("ul#box-apps-menu li#app-"));
             size = list.size();
-            if(size == 0)
+            if(size == 0 || i >= size)
                 break;
-            list.get(i).click();
+            nameItem = list.get(i).getText();
 
-            for (int j = 0; j < sizeDoc; j ++)
-            {
+            list.get(i).click();
+            List<WebElement> hs0 = driver.findElements(By.cssSelector("#content h1[style = 'margin-top: 0px;']"));
+            if (hs0.size() != 1)
+                System.out.println("ERROR! Problem with TITLE in Content: " + nameItem);
+
+            do {
                 List<WebElement> listDocs = driver.findElements(By.cssSelector("li#app-[class ='selected'] span[class = 'name']"));
                 sizeDoc = listDocs.size();
-                System.out.println("sizeDoc = " + sizeDoc + "j" + j);
+                if(size != 0 || j >= sizeDoc)
+                    break;
+                nameItem = listDocs.get(i).getText();
                 listDocs.get(j).click();
-                List<WebElement> hs = driver.findElements(By.cssSelector("h1"));
-                for (WebElement wb : hs) {
-                    System.out.println("Name inH1 = " + wb.getText());
-                }
-                System.out.println("Numder of H1 = " + hs.size() + "\n----------------");
+                List<WebElement> hs = driver.findElements(By.cssSelector("#content h1[style = 'margin-top: 0px;']"));
 
-            }
-
-        }
+                if (hs.size() == 1)
+                System.out.println("ERROR! Problem with TITLE in Content: " + nameItem);
+            j++;
+            }while(true);
+        i++;
+        }while(true);
     }
 
 
