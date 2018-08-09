@@ -78,13 +78,13 @@ String nameItem ="";
             do {
                 List<WebElement> listDocs = driver.findElements(By.cssSelector("li#app-[class ='selected'] span[class = 'name']"));
                 sizeDoc = listDocs.size();
-                if(size != 0 || j >= sizeDoc)
+                if(sizeDoc == 0 || j >= sizeDoc)
                     break;
                 nameItem = listDocs.get(i).getText();
                 listDocs.get(j).click();
                 List<WebElement> hs = driver.findElements(By.cssSelector("#content h1[style = 'margin-top: 0px;']"));
 
-                if (hs.size() == 1)
+                if (hs.size() != 1)
                 System.out.println("ERROR! Problem with TITLE in Content: " + nameItem);
             j++;
             }while(true);
