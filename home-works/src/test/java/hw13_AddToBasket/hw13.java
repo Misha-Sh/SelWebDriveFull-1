@@ -8,8 +8,13 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxBinary;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.io.File;
 import java.util.List;
 import java.util.NoSuchElementException;
 import java.util.concurrent.TimeUnit;
@@ -27,16 +32,16 @@ public class hw13 {
 //        options.setBinary(new FirefoxBinary(new File("/Applications/FireFoxNightly/Firefox Nightly.app/Contents/MacOS/firefox-bin")));
 //        driver = new FirefoxDriver(options);
 //        ///////// for FireFox45ESR ///////////////////////////
-//        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
-//        options.setBinary(new FirefoxBinary(new File("/Applications/FireFox45ESR/Firefox.app/Contents/MacOS/firefox-bin")));
-//        driver = new FirefoxDriver(options);
+        FirefoxOptions options = new FirefoxOptions().setLegacy(true);
+        options.setBinary(new FirefoxBinary(new File("/Applications/FireFox45ESR/Firefox.app/Contents/MacOS/firefox-bin")));
+        driver = new FirefoxDriver(options);
 //        ///////////for FireFox Common ///////////////////////
 //        FirefoxOptions options = new FirefoxOptions();
 //options.setBinary(new FirefoxBinary(new File("/Applications/Firefox.app/Contents/MacOS/firefox-bin")));
 //driver = new FirefoxDriver(options);
 //////////////////////////////////////////////////////////////////
         ////////////// For Chrome ///////////////////
-        driver = new ChromeDriver();
+       //driver = new ChromeDriver();
         //////////////////////For Safari ////////////////////
         //driver = new SafariDriver();
 /////////////////////////////////////////////////////////////
