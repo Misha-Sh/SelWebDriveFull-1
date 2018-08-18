@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8de467-2c71-42a3-aa84-d5ef5acf9c81" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dynamic.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/home-works_main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/home-works_main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/home-works_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/home-works_test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
@@ -9,6 +12,7 @@
       <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw13_AddToBasket/hw13.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw13_AddToBasket/hw13.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java" afterDir="false" />
     </list>
@@ -87,11 +91,20 @@
       <file leaf-file-name="ClicksLeftPanel_FindH1_2.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="57" column="53" selection-start-line="51" selection-start-column="3" selection-end-line="57" selection-end-column="53" />
+            <state relative-caret-position="412">
+              <caret line="99" column="5" selection-start-line="95" selection-start-column="3" selection-end-line="99" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FirstTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/first-project-java/src/test/java/FirstTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -99,8 +112,8 @@
       <file leaf-file-name="hw13.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="118" selection-end-column="5" />
+            <state relative-caret-position="826">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,13 +121,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hw14.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hw14.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw14_CheckingLinks/hw14.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+            <state relative-caret-position="134">
+              <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hw17.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw17_CheckLogs/hw17.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-works/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hw18.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1323">
+              <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogEntries.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.13.0/c4a49cfe5172bb6c6de784abd4c2b21470083815/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/logging/LogEntries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+              <folding>
+                <element signature="e#1628#1629#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -649,9 +708,9 @@
         <entry key="$PROJECT_DIR$/first-project-java/build.gradle" value="3435901588" />
         <entry key="$PROJECT_DIR$/first-project-java/gradle/wrapper/gradle-wrapper.properties" value="2175712811" />
         <entry key="$PROJECT_DIR$/first-project-java/settings.gradle" value="1129645535" />
-        <entry key="$PROJECT_DIR$/home-works" value="6129019927000" />
+        <entry key="$PROJECT_DIR$/home-works" value="6131279607000" />
         <entry key="$PROJECT_DIR$/home-works/.gradle" value="0" />
-        <entry key="$PROJECT_DIR$/home-works/build.gradle" value="13558042" />
+        <entry key="$PROJECT_DIR$/home-works/build.gradle" value="1951976204" />
         <entry key="$PROJECT_DIR$/home-works/gradle/wrapper/gradle-wrapper.properties" value="2175712811" />
         <entry key="$PROJECT_DIR$/home-works/settings.gradle" value="3113415629" />
       </map>
@@ -971,7 +1030,6 @@
         <option value="$PROJECT_DIR$/first-home-work/build.gradle" />
         <option value="$PROJECT_DIR$/first-home-work/src/test/java/OpenClosPage.java" />
         <option value="$PROJECT_DIR$/first-home-work/src/test/java/LiteCartAdmin.java" />
-        <option value="$PROJECT_DIR$/home-works/build.gradle" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/simple.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/OpenClosPage.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/LiteCartAdmin.java" />
@@ -989,16 +1047,22 @@
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java" />
-        <option value="$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw14_CheckingLinks/hw14.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15_Wind.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw16Cloud/hw16.java" />
+        <option value="$PROJECT_DIR$/home-works/build.gradle" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw17_CheckLogs/hw17.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="29" />
-    <option name="width" value="1274" />
-    <option name="height" value="656" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="375" />
+    <option name="y" value="109" />
+    <option name="width" value="1365" />
+    <option name="height" value="662" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1006,6 +1070,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1046,15 +1111,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw14_CheckingLinks" type="462c0819:PsiDirectoryNode" />
+              <item name="hw15_LocalGrid" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hw17_CheckLogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hw18_Proxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1092,84 +1174,49 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.hw14.testIt">
+  <component name="RunManager" selected="JUnit.hw17.testIt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
-    <configuration name="ClicksLeftPanel_FindH1_2.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="hw16" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hw16Cloud.hw16" />
       <module name="home-works_test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw7_ClicksLeftPanel_Find_H1.*" />
+          <option name="PATTERN" value="hw16Cloud.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw7_ClicksLeftPanel_Find_H1" />
-      <option name="MAIN_CLASS_NAME" value="hw7_ClicksLeftPanel_Find_H1.ClicksLeftPanel_FindH1_2" />
-      <option name="METHOD_NAME" value="testIt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="NewGood.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="home-works_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw12_NewGood.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw12_NewGood" />
-      <option name="MAIN_CLASS_NAME" value="hw12_NewGood.NewGood" />
-      <option name="METHOD_NAME" value="testIt" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="Registration.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="home-works_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw11_FillForm.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw11_FillForm" />
-      <option name="MAIN_CLASS_NAME" value="hw11_FillForm.Registration" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
       <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="hw13" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="home-works_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw13_AddToBasket.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hw13_AddToBasket" />
+      <option name="MAIN_CLASS_NAME" value="hw13_AddToBasket.hw13" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1204,20 +1251,43 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="hw14.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="hw17.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="home-works_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw14_CheckingLinks.*" />
+          <option name="PATTERN" value="hw17_CheckLogs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw14_CheckingLinks" />
-      <option name="MAIN_CLASS_NAME" value="hw14_CheckingLinks.hw14" />
+      <option name="PACKAGE_NAME" value="hw17_CheckLogs" />
+      <option name="MAIN_CLASS_NAME" value="hw17_CheckLogs.hw17" />
       <option name="METHOD_NAME" value="testIt" />
       <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="hw18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="home-works_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hw18_Proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="hw18_Proxy" />
+      <option name="MAIN_CLASS_NAME" value="hw18_Proxy.hw18" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -1250,19 +1320,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.Registration.test" />
-      <item itemvalue="JUnit.NewGood.testIt" />
-      <item itemvalue="JUnit.ClicksLeftPanel_FindH1_2.testIt" />
+      <item itemvalue="Application.hw16" />
+      <item itemvalue="JUnit.hw17.testIt" />
+      <item itemvalue="JUnit.hw18" />
       <item itemvalue="JUnit.hw13.testIt" />
-      <item itemvalue="JUnit.hw14.testIt" />
+      <item itemvalue="JUnit.hw13" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.hw14.testIt" />
+        <item itemvalue="JUnit.hw17.testIt" />
+        <item itemvalue="JUnit.hw13" />
         <item itemvalue="JUnit.hw13.testIt" />
-        <item itemvalue="JUnit.ClicksLeftPanel_FindH1_2.testIt" />
-        <item itemvalue="JUnit.Registration.test" />
-        <item itemvalue="JUnit.NewGood.testIt" />
+        <item itemvalue="JUnit.hw18" />
+        <item itemvalue="Application.hw16" />
       </list>
     </recent_temporary>
   </component>
@@ -1280,35 +1350,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="hw14_testIt - 2018.08.11 at 20h 13m 26s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 15h 57m 29s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 20h 21m 32s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 15h 58m 10s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 22h 26m 41s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 12m 55s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 22h 38m 21s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 29m 29s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 22h 41m 16s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 40m 09s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 23h 05m 51s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 42m 45s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 23h 09m 03s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 53m 36s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 23h 11m 42s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 54m 20s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 23h 16m 48s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw13 - 2018.08.18 at 16h 55m 03s.xml">
+      <configuration name="hw13" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="hw14_testIt - 2018.08.11 at 23h 18m 49s.xml">
-      <configuration name="hw14.testIt" configurationId="JUnit" />
+    <history-entry file="hw17_testIt - 2018.08.18 at 17h 02m 21s.xml">
+      <configuration name="hw17.testIt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1321,25 +1391,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="29" width="1274" height="656" extended-state="0" />
-    <editor active="true" />
+    <frame x="375" y="109" width="1365" height="662" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.31902984" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.31734318" />
+      <window_info anchor="right" id="Dynamic Members" weight="0.17384732" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5039308" side_tool="true" weight="0.46698114" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.4085821" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.35977858" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19237013" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15343915" />
       <window_info anchor="bottom" id="Build" order="7" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.121753246" />
+      <window_info active="true" anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.27966744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -1356,28 +1426,28 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32992566" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Gradle" order="5" weight="0.025092937" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49688473" visible="true" weight="0.26198632" />
       <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32713756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.39344263" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.739726" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32992566" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50311524" side_tool="true" weight="0.3846154" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Build" order="10" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -1391,52 +1461,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/home-works/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw5/LiteCartAdmin5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw4/LiteCartAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw4/LiteCartAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw4/LiteCartAdmin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first-project-java/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/first-project-java/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1564,13 +1592,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/simple.java" />
-    <entry file="file://$PROJECT_DIR$/first-project-java/src/test/java/FirstTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/OpenClosPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1579,13 +1600,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw5/LiteCartAdmin.java" />
-    <entry file="file://$PROJECT_DIR$/home-works/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw6/LiteCartAdmin6.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -1667,9 +1681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1677,9 +1688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="690">
           <caret line="63" column="111" selection-start-line="63" selection-start-column="99" selection-end-line="63" selection-end-column="111" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1688,9 +1696,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="52" column="55" selection-start-line="22" selection-start-column="4" selection-end-line="52" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1698,9 +1703,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="825">
           <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="69" selection-end-column="148" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1708,6 +1710,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
           <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="75" column="80" lean-forward="true" selection-start-line="74" selection-start-column="12" selection-end-line="75" selection-end-column="80" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15_Wind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="47" column="74" lean-forward="true" selection-start-line="47" selection-start-column="74" selection-end-line="47" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw16Cloud/hw16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-105">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1716,28 +1745,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw7_ClicksLeftPanel_Find_H1/ClicksLeftPanel_FindH1_2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="57" column="53" selection-start-line="51" selection-start-column="3" selection-end-line="57" selection-end-column="53" />
+        <state relative-caret-position="412">
+          <caret line="99" column="5" selection-start-line="95" selection-start-column="3" selection-end-line="99" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java">
+    <entry file="file://$PROJECT_DIR$/first-project-java/src/test/java/FirstTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="114" column="2" selection-start-line="114" selection-start-column="2" selection-end-line="118" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="127">
+          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw14_CheckingLinks/hw14.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="42" column="8" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
+        <state relative-caret-position="134">
+          <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-api/3.13.0/c4a49cfe5172bb6c6de784abd4c2b21470083815/selenium-api-3.13.0-sources.jar!/org/openqa/selenium/logging/LogEntries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="77" column="1" selection-start-line="77" selection-start-column="1" selection-end-line="77" selection-end-column="1" />
+          <folding>
+            <element signature="e#1628#1629#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="826">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw17_CheckLogs/hw17.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1323">
+          <caret line="140" column="22" selection-start-line="140" selection-start-column="22" selection-end-line="140" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
