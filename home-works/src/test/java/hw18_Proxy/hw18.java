@@ -3,6 +3,8 @@ package hw18_Proxy;
 import net.lightbody.bmp.BrowserMobProxy;
 import net.lightbody.bmp.BrowserMobProxyServer;
 import net.lightbody.bmp.client.ClientUtil;
+import net.lightbody.bmp.core.har.Har;
+import net.lightbody.bmp.proxy.CaptureType;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -24,7 +26,10 @@ public class hw18 {
 
     private WebDriver driver;
     private WebDriverWait wait;
+    //Proxy proxy;
 
+    //private BrowserMobProxy proxy = new BrowserMobProxyServer();
+private Proxy proxy;
     @Before
     public void start() {
 ///////////////////////// FireFox ////////////////////////////
@@ -43,7 +48,7 @@ public class hw18 {
 //////////////////////////////////////////////////////////////////
         ////////////// For Chrome ///////////////////
 
-        // start the proxy
+//         start the proxy
 //        BrowserMobProxy proxy = new BrowserMobProxyServer();
 //        proxy.start(0);
 //
@@ -53,13 +58,15 @@ public class hw18 {
 //        // configure it as a desired capability
 //        DesiredCapabilities capabilities = new DesiredCapabilities();
 //        capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
-
-        Proxy proxy = new Proxy();
-        proxy.setHttpProxy("localhost:8888");
-        DesiredCapabilities caps = new DesiredCapabilities();
-        caps.setCapability("proxy", proxy);
-
-        driver = new ChromeDriver(caps);
+//
+//       proxy.start(8888);
+//        proxy = new Proxy();
+////
+//      proxy.setHttpProxy("localhost:8888");
+//        DesiredCapabilities caps = new DesiredCapabilities();
+//        caps.setCapability("proxy", proxy);
+//
+//        driver = new ChromeDriver(caps);
 
 
 
@@ -70,15 +77,48 @@ public class hw18 {
 /////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////
 
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        //driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
 
     @Test
     public void testIt() {
+
+//        BrowserMobProxy proxy = new BrowserMobProxyServer();
+//        proxy.start(0);
+//        // get the JVM-assigned port and get to work!
+//        int port = proxy.getPort();
+
+        // start the proxy
+        BrowserMobProxy proxy = new BrowserMobProxyServer();
+        proxy.start(8888);
+        int port = proxy.getPort();
+//
+//        // get the Selenium proxy object
+        Proxy seleniumProxy = ClientUtil.createSeleniumProxy(proxy);
+//
+//        // configure it as a desired capability
+        DesiredCapabilities capabilities = new DesiredCapabilities();
+        capabilities.setCapability(CapabilityType.PROXY, seleniumProxy);
+
+        driver = new ChromeDriver(capabilities);
+
+        proxy.enableHarCaptureTypes(CaptureType.REQUEST_CONTENT, CaptureType.RESPONSE_CONTENT);
+//
+//        // create a new HAR with the label "yahoo.com"
+proxy.newHar("yahoo.com");
+//
+////        // open yahoo.com
+////        driver.get("http://yahoo.com");
+//
+//        // get the HAR data
+//        Har har = proxy.getHar();
+
+
+//--------------------------------------------------------------------------
         int i = 0;
         do {
-            driver.get("http://localhost/litecart/");
 
+            driver.get("http://localhost/litecart/");
             driver.findElement(By.cssSelector("#box-most-popular li:nth-child(1) a.link ")).click();
             WebElement cart = driver.findElement(By.cssSelector("div#cart span[class='quantity']"));
             String summInCart = cart.getText();
@@ -117,6 +157,11 @@ public class hw18 {
             try {
                 driver.findElement(By.cssSelector("div#checkout-cart-wrapper p em"));
                 System.out.println("Well, finish");
+
+                //har = proxy.endHar();
+                Har har = proxy.getHar();
+                har.getLog().getEntries().forEach(l -> System.out.println(l.getResponse().getStatus() + ":" +
+               l.getRequest().getUrl()));
                 return;
             } catch (Exception ex) {
             }
