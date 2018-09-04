@@ -16,6 +16,8 @@
       <module name="home-works_main" target="1.8" />
       <module name="home-works_test" target="1.8" />
       <module name="homeworks" target="1.5" />
+      <module name="lmr-web_main" target="1.8" />
+      <module name="lmr-web_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

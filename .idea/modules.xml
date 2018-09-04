@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-works.iml" filepath="$PROJECT_DIR$/.idea/modules/home-works.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-works_main.iml" filepath="$PROJECT_DIR$/.idea/modules/home-works_main.iml" group="home-works" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/home-works_test.iml" filepath="$PROJECT_DIR$/.idea/modules/home-works_test.iml" group="home-works" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lmr-web.iml" filepath="$PROJECT_DIR$/.idea/modules/lmr-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lmr-web_main.iml" filepath="$PROJECT_DIR$/.idea/modules/lmr-web_main.iml" group="lmr-web" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lmr-web_test.iml" filepath="$PROJECT_DIR$/.idea/modules/lmr-web_test.iml" group="lmr-web" />
     </modules>
   </component>
 </project>

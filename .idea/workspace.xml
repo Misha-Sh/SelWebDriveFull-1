@@ -2,9 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8de467-2c71-42a3-aa84-d5ef5acf9c81" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lmr-web.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lmr-web_main.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/lmr-web_test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/vik.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/Звезды.mj3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/Мозаика эшер.mj3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/out/test/classes/hw18_Proxy/hw18.class" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/out/test/classes/hw18_Proxy/hw18.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18.java" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/first-project-java/.gradle/" />
@@ -17,6 +30,9 @@
     <ignored path="$PROJECT_DIR$/home-works/.gradle/" />
     <ignored path="$PROJECT_DIR$/home-works/build/" />
     <ignored path="$PROJECT_DIR$/home-works/out/" />
+    <ignored path="$PROJECT_DIR$/lmr-web/.gradle/" />
+    <ignored path="$PROJECT_DIR$/lmr-web/build/" />
+    <ignored path="$PROJECT_DIR$/lmr-web/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +59,9 @@
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/home-works">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/lmr-web">
       <ProjectState />
     </projectState>
   </component>
@@ -78,22 +97,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hw13.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lmr-web/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="225">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Page.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Page.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="150">
               <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -102,28 +118,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowCasePage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ShowCasePage.java">
+      <file leaf-file-name="TestBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#159#160#0" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProductPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ProductPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -131,55 +130,40 @@
       <file leaf-file-name="BasketPage.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/BasketPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+            <state relative-caret-position="150">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#114#115#0" expanded="true" />
-                <element signature="e#143#144#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/App/Application.java">
+      <file leaf-file-name="Registration.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="103">
-              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1572#1573#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="555">
+              <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="52" selection-end-column="47" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CartPage.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/CartPage.java">
+      <file leaf-file-name="NewGood.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#121#122#0" expanded="true" />
-                <element signature="e#150#151#0" expanded="true" />
-                <element signature="e#725#726#0" expanded="true" />
-                <element signature="e#790#791#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="975">
+              <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="83" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddToBasketAndDelete.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/AddToBasketAndDelete.java">
+      <file leaf-file-name="UploadFile.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+            <state relative-caret-position="-221">
+              <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
               <folding>
-                <element signature="e#156#157#0" expanded="true" />
-                <element signature="e#174#175#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -214,6 +198,7 @@
         <entry key="$PROJECT_DIR$/first-home-work" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4" />
         <entry key="$PROJECT_DIR$/first-project-java" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4" />
         <entry key="$PROJECT_DIR$/home-works" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4" />
+        <entry key="$PROJECT_DIR$/lmr-web" value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4" />
       </map>
     </option>
     <option name="myGradleVersions">
@@ -221,6 +206,7 @@
         <entry key="$PROJECT_DIR$/first-home-work" value="4.4" />
         <entry key="$PROJECT_DIR$/first-project-java" value="4.4" />
         <entry key="$PROJECT_DIR$/home-works" value="4.4" />
+        <entry key="$PROJECT_DIR$/lmr-web" value="4.4" />
       </map>
     </option>
     <option name="availableProjects">
@@ -269,6 +255,22 @@
               <ExternalProjectPojo>
                 <option name="name" value="home-works" />
                 <option name="path" value="$PROJECT_DIR$/home-works" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="lmr-web" />
+              <option name="path" value="$PROJECT_DIR$/lmr-web" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="lmr-web" />
+                <option name="path" value="$PROJECT_DIR$/lmr-web" />
               </ExternalProjectPojo>
             </list>
           </value>
@@ -700,6 +702,147 @@
             </list>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/lmr-web">
+          <value>
+            <list>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the components produced by root project 'lmr-web'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="components" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects that depend on it." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="buildDependents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the sub-projects of root project 'lmr-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="projects" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="classes" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the dependent components of components in root project 'lmr-web'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="dependentComponents" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'lmr-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="buildEnvironment" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Gradle wrapper files." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="wrapper" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles test classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="testClasses" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Generates Javadoc API documentation for the main source code." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="javadoc" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles a jar archive containing the main classes." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="jar" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the configuration model of root project 'lmr-web'. [incubating]" />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="model" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes main resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="processResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the tasks runnable from root project 'lmr-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="tasks" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Initializes a new Gradle build." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="init" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs the unit tests." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="test" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles main Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="compileJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the insight into a specific dependency in root project 'lmr-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="dependencyInsight" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Runs all checks." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="check" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles the outputs of this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="assemble" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Deletes the build directory." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="clean" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Compiles test Java source." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="compileTestJava" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays all dependencies declared in root project 'lmr-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="dependencies" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Processes test resources." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="processTestResources" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays a help message." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="help" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="build" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Assembles and tests this project and all projects it depends on." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="buildNeeded" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="description" value="Displays the properties of root project 'lmr-web'." />
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$/lmr-web" />
+                <option name="name" value="properties" />
+              </ExternalTaskPojo>
+            </list>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="modificationStamps">
@@ -714,11 +857,16 @@
         <entry key="$PROJECT_DIR$/first-project-java/build.gradle" value="3435901588" />
         <entry key="$PROJECT_DIR$/first-project-java/gradle/wrapper/gradle-wrapper.properties" value="2175712811" />
         <entry key="$PROJECT_DIR$/first-project-java/settings.gradle" value="1129645535" />
-        <entry key="$PROJECT_DIR$/home-works" value="6131279607000" />
+        <entry key="$PROJECT_DIR$/home-works" value="6132681708000" />
         <entry key="$PROJECT_DIR$/home-works/.gradle" value="0" />
         <entry key="$PROJECT_DIR$/home-works/build.gradle" value="1951976204" />
         <entry key="$PROJECT_DIR$/home-works/gradle/wrapper/gradle-wrapper.properties" value="2175712811" />
         <entry key="$PROJECT_DIR$/home-works/settings.gradle" value="3113415629" />
+        <entry key="$PROJECT_DIR$/lmr-web" value="6143666151000" />
+        <entry key="$PROJECT_DIR$/lmr-web/.gradle" value="0" />
+        <entry key="$PROJECT_DIR$/lmr-web/build.gradle" value="1073272580" />
+        <entry key="$PROJECT_DIR$/lmr-web/gradle/wrapper/gradle-wrapper.properties" value="2175712811" />
+        <entry key="$PROJECT_DIR$/lmr-web/settings.gradle" value="147524604" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1017,6 +1165,104 @@
             </ExternalProjectBuildClasspathPojo>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/lmr-web">
+          <value>
+            <ExternalProjectBuildClasspathPojo>
+              <option name="modulesBuildClasspath">
+                <map>
+                  <entry key="$PROJECT_DIR$/lmr-web">
+                    <value>
+                      <ExternalModuleBuildClasspathPojo>
+                        <option name="path" value="$PROJECT_DIR$/lmr-web" />
+                      </ExternalModuleBuildClasspathPojo>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="name" value="lmr-web" />
+              <option name="projectBuildClasspath">
+                <list>
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/ant-1.9.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/ant-launcher-1.9.9.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-base-services-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-base-services-groovy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-build-cache-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-build-option-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-cli-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-core-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-core-api-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-docs-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-installation-beacon-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-jvm-services-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-0.13.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-tooling-builders-0.13.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-kotlin-dsl-tooling-models-0.13.1.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-launcher-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-logging-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-messaging-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-model-core-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-model-groovy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-persistent-cache-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-process-services-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-resources-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-runtime-api-info-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-tooling-api-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/gradle-wrapper-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-announce-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-antlr-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-cache-http-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-comparison-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-build-init-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-code-quality-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-composite-builds-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-dependency-management-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-diagnostics-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ear-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ide-play-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-ivy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-jacoco-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-javascript-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-groovy-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-java-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-jvm-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-language-scala-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-maven-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-osgi-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-base-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-jvm-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-platform-play-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugin-development-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugin-use-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-plugins-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-publish-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-reporting-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-gcs-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-http-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-s3-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-resources-sftp-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-scala-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-signing-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-test-kit-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-base-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-jvm-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-testing-native-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-tooling-api-builders-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-version-control-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/gradle-workers-4.4.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$PROJECT_DIR$/lmr-web/buildSrc/src/main/java" />
+                  <option value="$PROJECT_DIR$/lmr-web/buildSrc/src/main/groovy" />
+                </list>
+              </option>
+            </ExternalProjectBuildClasspathPojo>
+          </value>
+        </entry>
       </map>
     </option>
     <option name="projectSyncType">
@@ -1025,6 +1271,7 @@
         <entry key="$PROJECT_DIR$/first-home-work" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/first-project-java" value="RE_IMPORT" />
         <entry key="$PROJECT_DIR$/home-works" value="RE_IMPORT" />
+        <entry key="$PROJECT_DIR$/lmr-web" value="RE_IMPORT" />
       </map>
     </option>
   </component>
@@ -1057,12 +1304,10 @@
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15_Wind.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw16Cloud/hw16.java" />
-        <option value="$PROJECT_DIR$/home-works/build.gradle" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw17_CheckLogs/hw17.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw18_Proxy/hw18_2.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java" />
-        <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/BasketPage.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/TestBase.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/RemoveFromBasket.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/CartPage.java" />
@@ -1072,14 +1317,18 @@
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ShowCasePage.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/App/Application.java" />
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/Page.java" />
+        <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/BasketPage.java" />
+        <option value="$PROJECT_DIR$/lmr-web/build.gradle" />
+        <option value="$PROJECT_DIR$/home-works/build.gradle" />
+        <option value="$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="55" />
-    <option name="y" value="59" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="58" />
+    <option name="y" value="40" />
     <option name="width" value="1196" />
-    <option name="height" value="662" />
+    <option name="height" value="714" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1087,7 +1336,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1128,7 +1378,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw19_PageObjectModel" type="462c0819:PsiDirectoryNode" />
+              <item name="hw11_FillForm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
@@ -1137,8 +1387,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw19_PageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+              <item name="hw12_NewGood" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
@@ -1146,16 +1395,56 @@
               <item name="home-works" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hw19_PageObjectModel" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="upload" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
+              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1167,6 +1456,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lmr-web/src/test/resources" />
       <recent name="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -1175,6 +1465,7 @@
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lmr-web/src/test/resources" />
       <recent name="$PROJECT_DIR$/home-works/src/test/resources" />
       <recent name="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood" />
       <recent name="$PROJECT_DIR$/imgs" />
@@ -1193,7 +1484,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AddToBasketAndDelete">
+  <component name="RunManager" selected="JUnit.UploadFile">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1266,11 +1557,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration name="UploadFile" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lmr-web_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="upload.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
+      <option name="PACKAGE_NAME" value="upload" />
+      <option name="MAIN_CLASS_NAME" value="upload.UploadFile" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1282,18 +1580,18 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="hw13.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="home-works_test" />
+    <configuration name="UploadFile.testIt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="lmr-web_test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hw13_AddToBasket.*" />
+          <option name="PATTERN" value="upload.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw13_AddToBasket" />
-      <option name="MAIN_CLASS_NAME" value="hw13_AddToBasket.hw13" />
+      <option name="PACKAGE_NAME" value="upload" />
+      <option name="MAIN_CLASS_NAME" value="upload.UploadFile" />
       <option name="METHOD_NAME" value="testIt" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1305,18 +1603,11 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="hw18" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="home-works_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hw18_Proxy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="hw18_Proxy" />
-      <option name="MAIN_CLASS_NAME" value="hw18_Proxy.hw18" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -1351,19 +1642,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.hw18" />
-      <item itemvalue="JUnit.hw13.testIt" />
       <item itemvalue="JUnit.AddToBasket" />
       <item itemvalue="JUnit.RemoveFromBasket" />
       <item itemvalue="JUnit.AddToBasketAndDelete" />
+      <item itemvalue="JUnit.UploadFile.testIt" />
+      <item itemvalue="JUnit.UploadFile" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UploadFile" />
+        <item itemvalue="JUnit.UploadFile.testIt" />
         <item itemvalue="JUnit.AddToBasketAndDelete" />
         <item itemvalue="JUnit.RemoveFromBasket" />
         <item itemvalue="JUnit.AddToBasket" />
-        <item itemvalue="JUnit.hw13.testIt" />
-        <item itemvalue="JUnit.hw18" />
       </list>
     </recent_temporary>
   </component>
@@ -1381,35 +1672,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AddToBasket - 2018.08.22 at 00h 31m 16s.xml">
-      <configuration name="AddToBasket" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.03 at 21h 33m 46s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasket - 2018.08.22 at 00h 32m 48s.xml">
-      <configuration name="AddToBasket" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.03 at 21h 35m 51s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveFromBasket - 2018.08.22 at 00h 34m 29s.xml">
-      <configuration name="RemoveFromBasket" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.03 at 21h 38m 29s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RemoveFromBasket - 2018.08.22 at 00h 37m 40s.xml">
-      <configuration name="RemoveFromBasket" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.03 at 21h 41m 31s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasketAndDelete - 2018.08.22 at 00h 51m 59s.xml">
-      <configuration name="AddToBasketAndDelete" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.04 at 01h 03m 19s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasketAndDelete - 2018.08.22 at 00h 58m 06s.xml">
-      <configuration name="AddToBasketAndDelete" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.04 at 13h 51m 35s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasketAndDelete - 2018.08.22 at 00h 59m 17s.xml">
-      <configuration name="AddToBasketAndDelete" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.04 at 13h 55m 25s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasketAndDelete - 2018.08.22 at 01h 03m 47s.xml">
-      <configuration name="AddToBasketAndDelete" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.04 at 14h 13m 38s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasketAndDelete - 2018.08.22 at 01h 05m 17s.xml">
-      <configuration name="AddToBasketAndDelete" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.04 at 14h 53m 00s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddToBasketAndDelete - 2018.08.22 at 01h 07m 08s.xml">
-      <configuration name="AddToBasketAndDelete" configurationId="JUnit" />
+    <history-entry file="UploadFile - 2018.09.04 at 15h 05m 07s.xml">
+      <configuration name="UploadFile" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1422,50 +1713,47 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="59" width="1196" height="662" extended-state="0" />
-    <editor active="true" />
+    <frame x="58" y="40" width="1196" height="714" extended-state="1" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.31734318" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3164983" />
       <window_info anchor="right" id="Dynamic Members" order="4" weight="0.17384732" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5039308" side_tool="true" weight="0.46698114" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.35608855" />
       <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.495702" visible="true" weight="0.21143848" />
-      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49557522" weight="0.27966744" />
-      <window_info id="Structure" order="1" sideWeight="0.504298" side_tool="true" visible="true" weight="0.21143848" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8030303" visible="true" weight="0.20103987" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.2996633" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3922559" />
+      <window_info active="true" anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.27902946" />
+      <window_info id="Structure" order="1" sideWeight="0.1969697" side_tool="true" visible="true" weight="0.20103987" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.41267124" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.41267124" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Build" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.39344263" />
       <window_info anchor="right" id="Coverage" order="4" sideWeight="0.50442475" side_tool="true" weight="0.3294025" />
     </layout>
     <layout-to-restore>
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Build" order="7" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.35608855" />
       <window_info id="Image Layers" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.39344263" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.35608855" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50442475" side_tool="true" weight="0.3294025" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.082039915" />
@@ -1486,6 +1774,8 @@
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info id="Structure" order="1" sideWeight="0.50143266" side_tool="true" visible="true" weight="0.21143848" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="9" sideWeight="0.50442475" side_tool="true" weight="0.3294025" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.39344263" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4995366" weight="0.41267124" />
     </layout-to-restore>
   </component>
@@ -1494,24 +1784,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/home-works/build.gradle</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-remote-driver/3.13.0/e7c39e47444954b101e156e7e119c7576a49dbb6/selenium-remote-driver-3.13.0-sources.jar!/org/openqa/selenium/remote/ErrorHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="165" selection-start-line="165" selection-end-line="165" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/first-home-work/src/test/java/OpenClosPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/homeworks/pom.xml" />
     <entry file="file://$PROJECT_DIR$/home-works/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1534,13 +1818,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/simple.java" />
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/OpenClosPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw5/LiteCartAdmin.java" />
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw6/LiteCartAdmin6.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1641,20 +1918,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="68" column="8" selection-start-line="68" selection-start-column="8" selection-end-line="69" selection-end-column="148" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="124" column="67" selection-start-line="124" selection-start-column="67" selection-end-line="124" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw15_LocalGrid/hw15.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
@@ -1680,9 +1943,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1245">
           <caret line="99" column="5" selection-start-line="95" selection-start-column="3" selection-end-line="99" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1697,16 +1957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1005">
           <caret line="84" column="8" selection-start-line="84" selection-start-column="8" selection-end-line="84" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -1721,9 +1971,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="975">
           <caret line="78" selection-start-line="78" selection-end-line="78" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1748,125 +1995,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/EmptyBasketPage.java">
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/EmptyBasketPage.java" />
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/RemoveFromBasket.java" />
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/AddToBasketAndDelete.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+        <state relative-caret-position="120">
+          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="93" selection-start-line="93" selection-end-line="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ShowCasePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/App/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ProductPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/CartPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        <state relative-caret-position="402">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/OpenClosPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lmr-web/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-            <element signature="e#150#151#0" expanded="true" />
-            <element signature="e#725#726#0" expanded="true" />
-            <element signature="e#790#791#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/RemoveFromBasket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-          <folding>
-            <element signature="e#138#139#0" expanded="true" />
-            <element signature="e#156#157#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/AddToBasketAndDelete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="10" column="48" selection-start-line="10" selection-start-column="48" selection-end-line="10" selection-end-column="48" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/BasketPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#143#144#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Tests/TestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="150">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw13_AddToBasket/hw13.java">
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw11_FillForm/Registration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="555">
+          <caret line="50" column="8" selection-start-line="50" selection-start-column="8" selection-end-line="52" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ShowCasePage.java">
+    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood/NewGood.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="29" column="20" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#159#160#0" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="975">
+          <caret line="79" column="8" selection-start-line="79" selection-start-column="8" selection-end-line="83" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/ProductPage.java">
+    <entry file="file://$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/App/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1543#1544#0" expanded="true" />
-            <element signature="e#1572#1573#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="-221">
+          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
