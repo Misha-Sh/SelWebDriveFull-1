@@ -57,9 +57,15 @@ public class UploadFile {
 
 //        UUID uniqueKey = UUID.randomUUID();
 //        String pref = uniqueKey.toString();
-        String projectName = "My 3 project in LM about my BIKE";
-        String projectDescription = "My project 33 in LM is too hard for common people! ";
-        String keywords = "history, logo, ball";
+        ///veloSea.jpg#velosip.mj3#vik.jpeg#Звезды.mj3#Мозаика эшер.mj3#Звезды — копия 2.mj3
+        String imgFile = "veloSea.jpg";
+        String prjctFile = "velosip.mj3";
+        String projectName = "Велосипед";
+        String projectDescription = "Тем, кому везде мерещатся велосипеды";
+        String keywords = "вело";
+        String folderIndex = "2";
+        String curriculumIndex = "2";
+        String gradeIndex = "1";
 
         ////////////////// enter to account
         driver.get("http://orange.gan4x4.ru/");
@@ -74,7 +80,7 @@ driver.findElement(By.cssSelector("#password")).sendKeys(Keys.HOME + "mmmmmmm");
 
         //////////// enter image file
         WebElement imageFile = driver.findElement(By.cssSelector("input#image_file"));
-        Path file = Paths.get("/Users/int58/Documents/GitHub/SelWebDriveFull-1/lmr-web/src/test/resources/veloSea.jpg");
+        Path file = Paths.get("/Users/int58/Documents/GitHub/SelWebDriveFull-1/lmr-web/src/test/resources/" + imgFile);
         Path folderF = Paths.get("/Users/int58/Documents/GitHub/SelWebDriveFull-1/lmr-web");
         Path relativePath = folderF.relativize(file);
         String filePath = relativePath.toAbsolutePath().toString();
@@ -85,7 +91,7 @@ driver.findElement(By.cssSelector("#password")).sendKeys(Keys.HOME + "mmmmmmm");
         //////////// enter project file
 
         WebElement projectFile = driver.findElement(By.cssSelector("input#project_file"));
-        Path file2 = Paths.get("/Users/int58/Documents/GitHub/SelWebDriveFull-1/lmr-web/src/test/resources/velosip.mj3");
+        Path file2 = Paths.get("/Users/int58/Documents/GitHub/SelWebDriveFull-1/lmr-web/src/test/resources/" + prjctFile);
         Path folderF2 = Paths.get("/Users/int58/Documents/GitHub/SelWebDriveFull-1/lmr-web");
         Path relativePath2 = folderF2.relativize(file2);
         String filePath2 = relativePath2.toAbsolutePath().toString();
@@ -100,22 +106,24 @@ driver.findElement(By.cssSelector("#password")).sendKeys(Keys.HOME + "mmmmmmm");
         ///// choose folder ///////////////////
         WebElement folder = driver.findElement(By.cssSelector("select#folder_id"));
                 ///// shoose line 1 in drop down list of folders
-     ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex=1; arguments[0].dispatchEvent(new Event ('change'));", folder);
+     ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex="+folderIndex+ "; arguments[0].dispatchEvent(new Event ('change'));", folder);
 
      String folderListValue = folder.getAttribute("value");/////value of selected line
         // System.out.println("value of selected folder line " + folderListValue);
 
 
         ///// check/unchek flag Private
+        int privateFlag = 0;
         WebElement privateCheck = driver.findElement(By.cssSelector("div.checkbox input[name = 'private']"));
-        //privateCheck.click();
+        //privateCheck.click()
+        // privateFlag++;
 
         ////// shoose curriculum to line 1
         WebElement curriculum = driver.findElement(By.cssSelector("select#curriculum"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex=1; arguments[0].dispatchEvent(new Event ('change'));", curriculum);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex="+curriculumIndex+"; arguments[0].dispatchEvent(new Event ('change'));", curriculum);
         ////// shoose level to line 2
         WebElement gradeLevel = driver.findElement(By.cssSelector("select#grade"));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex=2; arguments[0].dispatchEvent(new Event ('change'));", gradeLevel);
+        ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex=" + gradeIndex + "; arguments[0].dispatchEvent(new Event ('change'));", gradeLevel);
 
         ////////////// click Upload
         driver.findElement(By.cssSelector("input[type = 'submit']")).click();
@@ -130,36 +138,63 @@ driver.findElement(By.cssSelector("#password")).sendKeys(Keys.HOME + "mmmmmmm");
         if ( pageURL.contains("folder_id="+folderListValue))
             System.out.println("OK! It's my folder");
         else
-            System.out.println("!!!PROBLEM! It's NO my folder!!!");
+            System.out.println("!!!PROBLEM! It's NO my folder OR something even worse. Например бракованный файл проекта!!!");
 
         ///////////// is project in his folder? /////////
         List<WebElement> mpCarts = driver.findElements(By.cssSelector("#form_all div.col-md-3"));
 int flagIAMHere = 0;
+        WebElement newCard = mpCarts.get(0);
         for (WebElement mpC : mpCarts){
             if(
-                mpC.findElement(By.cssSelector("a h2")).getAttribute("innerText").equals(projectName))
+                mpC.findElement(By.cssSelector("a h2")).getAttribute("innerText").equals(projectName)) {
                 flagIAMHere++;
 //                defaultValue:"79"
+                //numberCard = mpC.findElement(By.cssSelector("div.row div.col-md-2 input.project_check")).getAttribute("")
+            newCard = mpC;
+            }
         }
         if(flagIAMHere == 0)
-            System.out.println("!!!PROBLEM! I am  NOt in my folder!!!");
+            System.out.println("!!!PROBLEM! I am  NOt in my folder OR something even worse. Например бракованный файл проекта!!!!!!");
         else
-        if(flagIAMHere == 1)
+        if(flagIAMHere == 1) {
             System.out.println("OK! I am HERE and ALONE");
+            newCard.click();///// is file uploaded correct?
+            driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+            try{
+                driver.findElement(By.cssSelector("#root-div > canvas"));
+                System.out.println("OK! I think, converter loves this project");
+            }catch (Exception ex)
+            {
+                System.out.println("??? I think, converter DOES NOT loves this project");
+            }
+        }
         else
-            if (flagIAMHere > 1)
+            if (flagIAMHere > 1) {
                 System.out.println("Well! But user uploaded projects with the same names ");
+                newCard.click();///// is file uploaded correct?
+                driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+                try{
+                    driver.findElement(By.cssSelector("#root-div > canvas"));
+                    System.out.println("OK! I think, converter loves this project");
+                }catch (Exception ex)
+                {
+                    System.out.println("??? I think, converter DOES NOT loves this project");
+                }
+            }
+
+///////////////// is file uploaded correct?
 
 
+///////////////// check Private works?
 
 
 
 
     }
 
-   // @After
-//    public void stop() {
-//        driver.quit();
-//        driver = null;
-//    }
+    @After
+    public void stop() {
+        driver.quit();
+        driver = null;
+    }
 }

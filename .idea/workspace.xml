@@ -2,22 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8de467-2c71-42a3-aa84-d5ef5acf9c81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules/lmr-web.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/lmr-web_main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules/lmr-web_test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/vik.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/Звезды.mj3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/Мозаика эшер.mj3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/Звезды — копия 2.mj3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/home-works/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lmr-web/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/lmr-web/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lmr-web/out/test/classes/upload/UploadFile.class" beforeDir="false" afterPath="$PROJECT_DIR$/lmr-web/out/test/classes/upload/UploadFile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/first-project-java/.gradle/" />
@@ -160,8 +152,8 @@
       <file leaf-file-name="UploadFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-221">
-              <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+            <state relative-caret-position="1005">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1324,9 +1316,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="58" />
-    <option name="y" value="40" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="23" />
     <option name="width" value="1196" />
     <option name="height" value="714" />
   </component>
@@ -1484,7 +1476,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.UploadFile">
+  <component name="RunManager" selected="JUnit.UploadFile.testIt">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -1650,8 +1642,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UploadFile" />
         <item itemvalue="JUnit.UploadFile.testIt" />
+        <item itemvalue="JUnit.UploadFile" />
         <item itemvalue="JUnit.AddToBasketAndDelete" />
         <item itemvalue="JUnit.RemoveFromBasket" />
         <item itemvalue="JUnit.AddToBasket" />
@@ -1672,35 +1664,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UploadFile - 2018.09.03 at 21h 33m 46s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 00h 58m 45s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.03 at 21h 35m 51s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 00m 37s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.03 at 21h 38m 29s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 17m 50s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.03 at 21h 41m 31s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 19m 37s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.04 at 01h 03m 19s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 23m 43s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.04 at 13h 51m 35s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 28m 46s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.04 at 13h 55m 25s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 31m 03s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.04 at 14h 13m 38s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 34m 50s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.04 at 14h 53m 00s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 55m 16s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UploadFile - 2018.09.04 at 15h 05m 07s.xml">
-      <configuration name="UploadFile" configurationId="JUnit" />
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 02h 03m 36s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1713,7 +1705,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="40" width="1196" height="714" extended-state="1" />
+    <frame x="65" y="23" width="1196" height="714" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
@@ -1729,11 +1721,11 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8030303" visible="true" weight="0.20103987" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8030303" visible="true" weight="0.25476602" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.2996633" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3922559" />
-      <window_info active="true" anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.27902946" />
-      <window_info id="Structure" order="1" sideWeight="0.1969697" side_tool="true" visible="true" weight="0.20103987" />
+      <window_info active="true" anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.152513" />
+      <window_info id="Structure" order="1" sideWeight="0.1969697" side_tool="true" visible="true" weight="0.25476602" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -2106,8 +2098,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-221">
-          <caret line="101" column="64" selection-start-line="101" selection-start-column="64" selection-end-line="101" selection-end-column="64" />
+        <state relative-caret-position="1005">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
