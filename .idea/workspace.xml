@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3a8de467-2c71-42a3-aa84-d5ef5acf9c81" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/lmr-web/src/test/resources/Звезды — копия 2.mj3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-home-work/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/first-project-java/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
@@ -92,7 +91,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lmr-web/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state>
               <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
             </state>
           </provider>
@@ -152,8 +151,8 @@
       <file leaf-file-name="UploadFile.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1005">
-              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+            <state relative-caret-position="161">
+              <caret line="118" column="23" selection-start-line="117" selection-start-column="8" selection-end-line="118" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1312,13 +1311,14 @@
         <option value="$PROJECT_DIR$/home-works/src/test/java/hw19_PageObjectModel/Pages/BasketPage.java" />
         <option value="$PROJECT_DIR$/lmr-web/build.gradle" />
         <option value="$PROJECT_DIR$/home-works/build.gradle" />
+        <option value="$USER_HOME$/Desktop/LGM/Export/test/java/upload/UploadFile.java" />
         <option value="$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="65" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="28" />
+    <option name="y" value="38" />
     <option name="width" value="1196" />
     <option name="height" value="714" />
   </component>
@@ -1407,31 +1407,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="upload" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SelWebDriveFull-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SelWebDriveFull-1" type="462c0819:PsiDirectoryNode" />
-              <item name="lmr-web" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1448,6 +1423,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Desktop/LGM/Export" />
       <recent name="$PROJECT_DIR$/lmr-web/src/test/resources" />
       <recent name="$PROJECT_DIR$/home-works/src/test/java/hw12_NewGood" />
     </key>
@@ -1664,12 +1640,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UploadFile_testIt - 2018.09.06 at 00h 58m 45s.xml">
-      <configuration name="UploadFile.testIt" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 00m 37s.xml">
-      <configuration name="UploadFile.testIt" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="UploadFile_testIt - 2018.09.06 at 01h 17m 50s.xml">
       <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
@@ -1694,6 +1664,12 @@
     <history-entry file="UploadFile_testIt - 2018.09.06 at 02h 03m 36s.xml">
       <configuration name="UploadFile.testIt" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 02h 56m 55s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UploadFile_testIt - 2018.09.06 at 03h 23m 34s.xml">
+      <configuration name="UploadFile.testIt" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1705,7 +1681,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="23" width="1196" height="714" extended-state="0" />
+    <frame x="28" y="38" width="1196" height="714" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32980973" />
@@ -1717,15 +1694,15 @@
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5039308" side_tool="true" weight="0.46698114" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4960692" visible="true" weight="0.33333334" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.082039915" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8030303" visible="true" weight="0.25476602" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8030303" visible="true" weight="0.14731368" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.2996633" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3922559" />
-      <window_info active="true" anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.152513" />
-      <window_info id="Structure" order="1" sideWeight="0.1969697" side_tool="true" visible="true" weight="0.25476602" />
+      <window_info anchor="right" id="Gradle" order="3" sideWeight="0.49557522" visible="true" weight="0.152513" />
+      <window_info id="Structure" order="1" sideWeight="0.1969697" side_tool="true" visible="true" weight="0.14731368" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -1788,7 +1765,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/homeworks/pom.xml" />
     <entry file="file://$PROJECT_DIR$/home-works/settings.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -2050,7 +2026,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lmr-web/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
+        <state>
           <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
         </state>
       </provider>
@@ -2096,10 +2072,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Desktop/LGM/Export/test/java/upload/UploadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="121" column="45" selection-start-line="121" selection-start-column="45" selection-end-line="121" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lmr-web/src/test/java/upload/UploadFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1005">
-          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+        <state relative-caret-position="161">
+          <caret line="118" column="23" selection-start-line="117" selection-start-column="8" selection-end-line="118" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

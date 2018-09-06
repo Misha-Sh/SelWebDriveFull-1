@@ -60,12 +60,12 @@ public class UploadFile {
         ///veloSea.jpg#velosip.mj3#vik.jpeg#Звезды.mj3#Мозаика эшер.mj3#Звезды — копия 2.mj3
         String imgFile = "veloSea.jpg";
         String prjctFile = "velosip.mj3";
-        String projectName = "Велосипед";
-        String projectDescription = "Тем, кому везде мерещатся велосипеды";
-        String keywords = "вело";
+        String projectName = "ePrivat";
+        String projectDescription = "Тем, кому везде мерещатся privat";
+        String keywords = "privat";
         String folderIndex = "2";
         String curriculumIndex = "2";
-        String gradeIndex = "1";
+        String gradeIndex = "2";
 
         ////////////////// enter to account
         driver.get("http://orange.gan4x4.ru/");
@@ -103,9 +103,9 @@ driver.findElement(By.cssSelector("#password")).sendKeys(Keys.HOME + "mmmmmmm");
         driver.findElement(By.cssSelector("#description")).sendKeys(Keys.HOME + projectDescription);
         driver.findElement(By.cssSelector("#tags")).sendKeys(Keys.HOME + keywords);
 
-        ///// choose folder ///////////////////
+        ///// select folder ///////////////////
         WebElement folder = driver.findElement(By.cssSelector("select#folder_id"));
-                ///// shoose line 1 in drop down list of folders
+                ///// select line in drop down list of folders
      ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex="+folderIndex+ "; arguments[0].dispatchEvent(new Event ('change'));", folder);
 
      String folderListValue = folder.getAttribute("value");/////value of selected line
@@ -115,13 +115,13 @@ driver.findElement(By.cssSelector("#password")).sendKeys(Keys.HOME + "mmmmmmm");
         ///// check/unchek flag Private
         int privateFlag = 0;
         WebElement privateCheck = driver.findElement(By.cssSelector("div.checkbox input[name = 'private']"));
-        //privateCheck.click()
-        // privateFlag++;
+        privateCheck.click();
+         privateFlag++;
 
-        ////// shoose curriculum to line 1
+        ////// select curriculum
         WebElement curriculum = driver.findElement(By.cssSelector("select#curriculum"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex="+curriculumIndex+"; arguments[0].dispatchEvent(new Event ('change'));", curriculum);
-        ////// shoose level to line 2
+        ////// select grade level
         WebElement gradeLevel = driver.findElement(By.cssSelector("select#grade"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].selectedIndex=" + gradeIndex + "; arguments[0].dispatchEvent(new Event ('change'));", gradeLevel);
 
@@ -148,8 +148,6 @@ int flagIAMHere = 0;
             if(
                 mpC.findElement(By.cssSelector("a h2")).getAttribute("innerText").equals(projectName)) {
                 flagIAMHere++;
-//                defaultValue:"79"
-                //numberCard = mpC.findElement(By.cssSelector("div.row div.col-md-2 input.project_check")).getAttribute("")
             newCard = mpC;
             }
         }
@@ -158,6 +156,7 @@ int flagIAMHere = 0;
         else
         if(flagIAMHere == 1) {
             System.out.println("OK! I am HERE and ALONE");
+
             newCard.click();///// is file uploaded correct?
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             try{
@@ -171,6 +170,7 @@ int flagIAMHere = 0;
         else
             if (flagIAMHere > 1) {
                 System.out.println("Well! But user uploaded projects with the same names ");
+
                 newCard.click();///// is file uploaded correct?
                 driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 try{
@@ -182,7 +182,7 @@ int flagIAMHere = 0;
                 }
             }
 
-///////////////// is file uploaded correct?
+
 
 
 ///////////////// check Private works?
